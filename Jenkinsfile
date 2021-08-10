@@ -13,7 +13,7 @@ stage('Prepare')
   script: this,
   host: 'https://hclutl1909.hcldigilabs.com:8001',
   abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-  repository: 'HCL-DevOps-V',
+  repository: 'HCL-DevOps-V1',
   remoteRepositoryURL: "https://github.com/abhilashhaa/HCL-DevOps-V1.git",
   role: 'TARGET',
   vSID: 'FEF',
@@ -26,7 +26,7 @@ stage('RunUnitTest')
       host: 'https://hclutl1909.hcldigilabs.com:8001',
       client: '200',
       abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-      repository: 'HCL-DevOps-V'
+      repository: 'HCL-DevOps-V1'
 )
 
 
@@ -37,7 +37,7 @@ stage('RunUnitTest')
         host: "https://hclutl1909.hcldigilabs.com:8001",
         client: "200",
         abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-        repository: "HCL-DevOps-V"
+        repository: "HCL-DevOps-V1"
    )
 		
 	

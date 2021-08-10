@@ -13,7 +13,7 @@ stage('Build')
   host: 'https://hclutl1909.hcldigilabs.com:8001',
   abapCredentialsId: 'ABAPUserPasswordCredentialsId',
   repository: 'HCL-DevOps-V1',
-  remoteRepositoryURL: "https://github.com/HCL-Techno/HCL_DevOps_V1",
+  remoteRepositoryURL: 'https://github.com/HCL-Techno/HCL_DevOps_V1',
   role: 'TARGET',
   vSID: 'FEF',
 	    )

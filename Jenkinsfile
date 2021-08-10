@@ -26,7 +26,7 @@ stage('RunUnitTest')
       host: 'https://hclutl1909.hcldigilabs.com:8001',
       client: '200',
       abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-      repository: 'HCL-DevOps-V1'
+      repository: 'HCL-DevOps-V'
 )
 
 
@@ -37,7 +37,7 @@ stage('RunUnitTest')
         host: "https://hclutl1909.hcldigilabs.com:8001",
         client: "200",
         abapCredentialsId: 'ABAPUserPasswordCredentialsId',
-        repository: "HCL-DevOps-V1"
+        repository: "HCL-DevOps-V"
    )
 		
 	
